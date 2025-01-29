@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="keywords" content ="Max Jones, portfolio, Weber State, Programming">
-    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+
 
     <title>Max A. Jones' Portfolio!</title>
 </head>
-<body>
+<body id="pageBody">
     <h1>Max's Client Side Programming Portfolio!</h1>
 
-    <img src="IMG_0709.jpg" alt = "me" style ="width:150px;height:200px;">
+    <img id="me" src="IMG_0709.jpg" alt = "me" style ="width:150px;height:200px;">
 
     <h3>A Bit About Me!</h3>
     <p>To start, let me introduce myself! My name is Max Jones; I've lived in Utah for most of my life. I'm the
@@ -25,7 +27,10 @@
     <p>&#128523; WORK IN PROGRESS! &#128523;</p>
     <br>
     <hr>
-    <button>Default</button> <button>Dark Mode</button> <button>Light Mode</button>
+    <button onclick="regular()">Default</button>
+    <button onclick="dark()">Dark Mode</button>
+    <button onclick="light()">Light Mode</button>
+    <button onclick="grilledCheese()">Grilled Cheese</button>
 
 
 </body>
