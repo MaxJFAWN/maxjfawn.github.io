@@ -1,7 +1,7 @@
 body {
   background-color: lavender;
 
-  font-family: "High Tower Text"
+  font-family: "High Tower Text";
 }
 h1, h2, h3, h4, h5, h6 {
   color: darkslateblue;
@@ -19,4 +19,12 @@ img {
   width: 50%;
 
   border: 5px solid #483d8a;
+}
+
+button {
+  background-color: antiquewhite;
+}
+
+button:hover {
+  background-color: cornflowerblue;
 }
